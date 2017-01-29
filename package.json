@@ -1,0 +1,29 @@
+{
+  "name": "homebridge-notification",
+  "version": "0.0.1",
+  "description": "Create accessories used to send IFTTT notifications using HomeKit rules",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "echo \"Error: configure and run homebridge to start\" && exit 1"
+  },
+  "author": {
+    "name": "Serge Turgeon",
+    "email": "serge.turgeon@icloud.com"
+  },
+  "license": "ISC",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "engines": {
+    "homebridge": ">=0.4.9",
+    "node": ">=4.2.0"
+  },
+  "dependencies": {
+    "iftttmaker": ">=1.2.1",
+    "pkginfo": ">=0.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sergeturgeon/homebridge-notification"
+  }
+}

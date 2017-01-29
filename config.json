@@ -1,0 +1,19 @@
+{
+  "bridge": {
+    "name": "Homebridge",
+    "username": "00:00:AA:BB:CC:DD",
+    "port": 51826,
+    "pin": "031-45-154"
+  },
+
+  "accessories": [
+    {
+      "accessory": "Notification",
+      "name": "Notify Heat Off",
+      "ifttt_api_key": "xxxxxxxx",
+      "ifttt_event": "homebridge",
+      "ifttt_message": "Ecobee heat set to Off", 
+      "ifttt_mute_notification_interval_in_sec": 60 
+    }
+  ]
+}
