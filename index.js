@@ -55,20 +55,20 @@ NotificationAccessory.prototype =
   getState: function (callback)
   {
     this.service.setCharacteristic(this.sensor, this.stateValue);
-    this.log('getState '  + this.stateValue);
+    //this.log('getState '  + this.stateValue);
     callback(null, this.stateValue);
   },
   
   setState: function (value, callback)
   {
-    this.log('setState ' + value);
+    //this.log('setState ' + value);
     this.stateValue = value;
 
     if (this.stateValue == 1) {
       // 'that' is used inside timeout functions
       that = this;
 
-      // Clear the On value after 500 milliseconds 
+      // Clear the On value after 250 milliseconds 
       setTimeout(function() {that.stateValue = 0; that.service.setCharacteristic(that.sensor, 0); }, 500 );
 
       // Send IFTTT notification
