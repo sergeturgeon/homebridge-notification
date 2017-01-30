@@ -3,6 +3,7 @@ Create accessories used to send IFTTT notifications using HomeKit Automation
 
 The Homebridge Notification accessory is a simple switch which sends a notification to IFTTT whenever it is toggled On. The Notification accessory is meant to be used in conjunction with HomeKit Automation. A user can program an automation using the Home app to send a notification whenever an event/state (or combination of) occurs. This is done by programming the Automation to set the Notfication accessory state to On. Currently, the Home application only supports native notification from sensors such as Motion Detectors, Presense Sensors, Door Locks, etc.. This Homebridge accessory bridges the gap and allows any HomeKit state to trigger a notification. For example, you can send a notification if the temperature in your home is below a threshold but the thermostat is currently turned off. 
 
+The Home app provides only very limited functionality for programming Automations. There is however an excellent HomeKit app called "Hesperus" which allows the creation of Actions (if/then) based on any HomeKit device state.
 
 ## IFTTT Configuration
 
