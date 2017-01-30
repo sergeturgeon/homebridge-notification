@@ -5,6 +5,8 @@ The Homebridge Notification accessory is a simple switch which sends a notificat
 
 The Home app provides only very limited functionality for programming Automations. There is however an excellent HomeKit app called "Hesperus" which allows the creation of Actions (if/then) based on any HomeKit device state.
 
+TIP: Add the Notification accessory to a room called "Notification". Also, exclude this accessory from your Favorites so that it is not visisble from Home app main screen.
+
 ## IFTTT Configuration
 
 ### "ifttt_api_key"
